@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: mysimpleapp
+  name: mysimpleapp
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: mysimpleapp
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: mysimpleapp
+    spec:
+      containers:
+        - image: nginx
+          name: mysimpleapp
+          resources: {}
+status: {}
