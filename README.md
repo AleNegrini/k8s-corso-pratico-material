@@ -12,3 +12,4 @@ alias k="kubectl"
 ## Table of contents
 
 - [Pods](../pods/README.md)
+- [Namespaces](./namespaces/README.md)
