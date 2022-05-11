@@ -14,3 +14,4 @@ alias k="kubectl"
 - [Pods](../pods/README.md)
 - [Namespaces](./namespaces/README.md)
 - [Labels](./labels_selectors/README.md)
+- [Deployments](./deployments/README.md)
